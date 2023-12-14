@@ -1,10 +1,10 @@
-{ "name": "imap",
+{ "name": "aa-imap",
   "version": "0.8.20",
-  "author": "Brian White <mscdex@mscdex.net>",
-  "description": "An IMAP module for node.js that makes communicating with IMAP servers easy",
+  "author": "Brian White <mscdex@mscdex.net>, Alison Aquinas <alison@aquinas.pro>,",
+  "description": "A fork of node-imap based on https://github.com/mscdex/node-imap/pull/911",
   "main": "./lib/Connection",
   "dependencies": {
-    "safe-utf7": ">=1.0.6"
+    "safe-utf7": ">=1.0.7"
   },
   "scripts": {
     "test": "node test/test.js"
